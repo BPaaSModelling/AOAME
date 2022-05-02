@@ -1,0 +1,9 @@
+[submodule "OntologyBasedModellingEnvironment-WebApp"]
+	path = OntologyBasedModellingEnvironment-WebApp
+	url = https://github.com/BPaaSModelling/OntologyBasedModellingEnvironment-WebApp.git
+[submodule "OntologyBasedModellingEnvironment-WebService"]
+	path = OntologyBasedModellingEnvironment-WebService
+	url = https://github.com/BPaaSModelling/OntologyBasedModellingEnvironment-WebService.git
+[submodule "Ontology4ModelingEnvironment"]
+	path = Ontology4ModelingEnvironment
+	url = https://github.com/BPaaSModelling/Ontology4ModelingEnvironment.git
