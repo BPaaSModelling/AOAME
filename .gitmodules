@@ -7,3 +7,6 @@
 [submodule "Ontology4ModelingEnvironment"]
 	path = Ontology4ModelingEnvironment
 	url = https://github.com/BPaaSModelling/Ontology4ModelingEnvironment.git
+[submodule "fuseki-heroku-test"]
+	path = fuseki-heroku-test
+	url = https://github.com/BPaaSModelling/fuseki-heroku-test.git
