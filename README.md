@@ -5,7 +5,7 @@ This repository contain the whole app structured with sub-repositories.
 Prerequisites
 To run AOAME locally you first need to install the following software:  
 Git: https://git-scm.com/downloads  
-JDK: https://adoptopenjdk.net/  
+JDK: [https://adoptopenjdk.net/](https://adoptium.net/temurin/archive/?version=17)  Make sure you install the current version of the project: **Temurin 17.0.7+7**
 Either IntelliJ: https://www.jetbrains.com/idea/download/ (requires academic license)
 or Eclipse: https://www.eclipse.org/downloads/ or only Maven: https://maven.apache.org/  
 Optionally WebStorm: https://www.jetbrains.com/webstorm/ (requires academic license)  
