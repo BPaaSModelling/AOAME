@@ -16,7 +16,7 @@ Optionally WebStorm: <https://www.jetbrains.com/webstorm/> (requires academic li
 
 Node.js: https://nodejs.org/en/blog/release/v16.4.2  
 Important: Install the node version that is required by the WebApp project in package.json. Check it via the link: [WebApp repo package.json](https://github.com/BPaaSModelling/OntologyBasedModellingEnvironment-WebApp/blob/master/package.json)  
-![Ein Bild, das Schrift, Text, Handschrift, Typografie enthält. Automatisch generierte Beschreibung](media/de719ec34e76cd354f816c9942a430fa.png)
+![de719ec34e76cd354f816c9942a430fa](https://github.com/BPaaSModelling/AOAME/assets/18686110/88d3a059-c456-4a06-9520-95fbd1f37a3e)
 
 If you want to make changes to the code of the WebService it is recommended to install IntelliJ or Eclipse which comes with its own version of Maven. If you do not plan on making changes to the WebService it is also possible to install Maven on its own.
 
@@ -41,40 +41,38 @@ Start IntelliJ, open the WebService project: click *File*, *Open*, provide the p
 
 To build the project, click *Run* and *Edit Configurations*. Then, add the following configuration in IntelliJ and run it.
 
-![Ein Bild, das Text, Screenshot, Software, Multimedia-Software enthält. Automatisch generierte Beschreibung](media/b9272fc3f8e3dc466663c5f51b40a981.png)
+![ab35623fca096f8ed0f4e7e706deca72](https://github.com/BPaaSModelling/AOAME/assets/18686110/16a654eb-05d7-4901-835e-2970e3c361ad)
 
 ## Using Eclipse
 
-Start Eclipse and click *File* then *Import…*![](media/ab35623fca096f8ed0f4e7e706deca72.png)
+Start Eclipse and click *File* then *Import…*
+![b9272fc3f8e3dc466663c5f51b40a981](https://github.com/BPaaSModelling/AOAME/assets/18686110/465f8ac6-a6ef-48d2-b36f-148b14e2f752)
 
 Select *Projects from Folder or Archive*. Then click on *Next*.
 
-![](media/6d7c73468e82a5148f7df757566b3fc6.png)
+![6d7c73468e82a5148f7df757566b3fc6](https://github.com/BPaaSModelling/AOAME/assets/18686110/e548a828-f1c5-4946-911a-c51be9e3c4ce)
 
 The *setup_local.bat* script should have created a folder called *aoame* which contains a folder called *OntologyBasedModellingEnvironment-WebService.* Select the *OntologyBasedModellingEnvironment-WebService* folder by clicking *Directory…* and navigating to it.
 
 After you have selected the directory click *Finish*.
 
-![](media/78d72e6861cd432b2df37716aedbace0.png)
+![78d72e6861cd432b2df37716aedbace0](https://github.com/BPaaSModelling/AOAME/assets/18686110/e5074011-6d4d-4fae-af8b-02604c78f372)
 
 Now you need to setup a run configuration. To do that click on the down arrow then on *Run As* and the on *Maven build.*
 
-![](media/114b186aea5287f2cc9e110d43eb89a2.png)
+![114b186aea5287f2cc9e110d43eb89a2](https://github.com/BPaaSModelling/AOAME/assets/18686110/851e1864-6e71-4606-8f37-36f6fc7c9253)
 
 In the *Goals* field write *package.* Then click on *Run* to start the Maven build.
 
-![](media/d225d1b3f97fe426dae0ea456557454b.png)
+![d225d1b3f97fe426dae0ea456557454b](https://github.com/BPaaSModelling/AOAME/assets/18686110/db03a9e9-8f82-46a7-aba0-3e9b6a90225a)
 
 The next time you want to build the WebService you can run Maven by clicking on *OntologyBasedModellingEnvironment-WebService* inside the dropdown menu.
 
-![](media/2bbbec65e82c0473e2809e64a2247031.png)
+![2bbbec65e82c0473e2809e64a2247031](https://github.com/BPaaSModelling/AOAME/assets/18686110/43a907d6-6a81-439f-a29d-c99d8940991f)
 
 ## Using Maven directly
 
 If you use Maven directly you can build the WebService by running *mvn verify.*
-
-*  
-*
 
 # Running/Debugging the WebService
 
@@ -85,15 +83,16 @@ Open *Run configrations* again, click on the *+* sign to add a new *JAR Applicat
 Provide the *Path to JAR* according to your setup.  
 Enter *Program arguments*, as shown below.
 
-![Ein Bild, das Screenshot, Text, Software, Multimedia-Software enthält. Automatisch generierte Beschreibung](media/ec006f24da8950d00e22a034a276a1d2.png)![Ein Bild, das Text, Screenshot, Software, Multimedia-Software enthält. Automatisch generierte Beschreibung](media/0e487bff81b68d77a71b14028bb7e884.png)
+![0e487bff81b68d77a71b14028bb7e884](https://github.com/BPaaSModelling/AOAME/assets/18686110/2adbca4d-d3e7-44ce-8efe-9663d68e5ae9)
+![ec006f24da8950d00e22a034a276a1d2](https://github.com/BPaaSModelling/AOAME/assets/18686110/a3ff8bdf-c35b-4e9d-9730-5e9c12f7e515)
 
 Add Run Maven package to *Before launch,* right below. This will build the project before every launch.
 
-![Ein Bild, das Text, Schrift, Screenshot enthält. Automatisch generierte Beschreibung](media/4e81c2d68899d36f834e0c5b15a9b3cb.png)
+![4e81c2d68899d36f834e0c5b15a9b3cb](https://github.com/BPaaSModelling/AOAME/assets/18686110/0713cfe7-c4d4-4a90-bf7d-8f9f2a465d20)
 
 Finally, press run or debug buttons.
 
-![Ein Bild, das Text, Schrift, Screenshot, Design enthält. Automatisch generierte Beschreibung](media/bb5569cc2e5e796833bca8f3fd9e6931.png)
+![bb5569cc2e5e796833bca8f3fd9e6931](https://github.com/BPaaSModelling/AOAME/assets/18686110/e09d3fee-de48-430b-92f2-5f4cb026530f)
 
 # Building the WebApp
 
@@ -101,27 +100,27 @@ Finally, press run or debug buttons.
 
 First open the folder *OntologyBasedModellingEnvironment-WebApp* inside WebStorm. Then click on *Add Configuration…*
 
-![](media/333617297572574caddb4dd8cf3a8054.png)
+![333617297572574caddb4dd8cf3a8054](https://github.com/BPaaSModelling/AOAME/assets/18686110/5381dd19-724d-47d9-8a32-e00b9e996af8)
 
 Click on the plus symbol at the top left of the dialog.
 
-![](media/ac287b0db2ea82aff035e7c6547858f2.png)
+![ac287b0db2ea82aff035e7c6547858f2](https://github.com/BPaaSModelling/AOAME/assets/18686110/99338e66-ba55-4659-8cfc-5c90b07a3835)
 
 Select *npm* on the dropdown.
 
-![](media/742751fe05cfa548562da84f6eb3b658.png)
+![742751fe05cfa548562da84f6eb3b658](https://github.com/BPaaSModelling/AOAME/assets/18686110/4dc97aec-2241-4048-aa8f-0e86f86c1c2a)
 
 On the *Scripts* dropdown select *build.* You have now added a configuration to build the WebApp.
 
-![](media/ea92175e2d2513a7e44b8044af182596.png)
+![ea92175e2d2513a7e44b8044af182596](https://github.com/BPaaSModelling/AOAME/assets/18686110/75d52221-cdba-46ec-a54c-eb34edf856a4)
 
 To start building the WebApp make sure that *build* is selected on the dropdown then click on the green arrow to the right of the dropdown.
 
-![](media/25c8462c5bca5b372061b62d84930091.png)
+![25c8462c5bca5b372061b62d84930091](https://github.com/BPaaSModelling/AOAME/assets/18686110/73cffc8f-bd60-47ff-bdc0-f17ee17c2c72)
 
 You can also add a second configuration with *heroku-start*. This can be used to start the WebApp through WebStorm.
 
-![](media/60242dbde1711737379b10c948a1f4ca.png)
+![1ef3f813a04304340b264a67411c046d](https://github.com/BPaaSModelling/AOAME/assets/18686110/d6df5aa8-0572-4721-ba59-f164dc986432)
 
 ## Using the Command line
 
@@ -158,18 +157,18 @@ Open GitHub -\> Settings -\> Developer Settings -\>Personal access tokens -\> To
 
 4\. Create a new branch for your version, commit all your changes, and push.
 
-![](media/6d9de8b321c5a6833363c129b4a5df26.png)
+![6d9de8b321c5a6833363c129b4a5df26](https://github.com/BPaaSModelling/AOAME/assets/18686110/df6198b2-eafb-4ea9-aa97-2deaeae21535)
 
 5\. Now, merge your branch into the master branch.
 
 In Intellij or WebStorm, right-click the master branch and click "checkout the master". Now, you can merge your branch into the master branch (screenshot below). Once it is done, please test that everything works as expected. If testing is successful, push the new master branch.
 
-![](media/1ef3f813a04304340b264a67411c046d.png)
+![60242dbde1711737379b10c948a1f4ca](https://github.com/BPaaSModelling/AOAME/assets/18686110/dc1aa283-441a-4a33-8a37-2dc85895e178)
 
 If you need to push to the Ontology4ModelingEnvironment repo, first you need to merge the master into your own branch.
 
 Create a Pull request directly from GitHub that will be merged when approved (see screenshots).
 
-![Image preview](media/868da44782ed4f759a2e5894f22d6d61.png)
+![868da44782ed4f759a2e5894f22d6d61](https://github.com/BPaaSModelling/AOAME/assets/18686110/b220ca26-7824-4dbe-8fb5-d98bd995a3c7)
 
-![Image preview](media/457cdc90f5c3e9580e15afd8f21c46d2.png)
+![457cdc90f5c3e9580e15afd8f21c46d2](https://github.com/BPaaSModelling/AOAME/assets/18686110/d4382e2b-7559-4887-867a-83bb1af63d4e)
