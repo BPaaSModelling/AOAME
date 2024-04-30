@@ -16,7 +16,7 @@ Optionally WebStorm: <https://www.jetbrains.com/webstorm/> (requires academic li
 
 Node.js: https://nodejs.org/en/blog/release/v16.4.2  
 Important: Install the node version that is required by the WebApp project in package.json. Check it via the link: [WebApp repo package.json](https://github.com/BPaaSModelling/OntologyBasedModellingEnvironment-WebApp/blob/master/package.json)  
-![de719ec34e76cd354f816c9942a430fa](https://github.com/BPaaSModelling/AOAME/assets/18686110/88d3a059-c456-4a06-9520-95fbd1f37a3e)
+![image](https://github.com/BPaaSModelling/AOAME/assets/18686110/43e038da-c9b4-4047-ad1c-ee13b649592b)
 
 If you want to make changes to the code of the WebService it is recommended to install IntelliJ or Eclipse which comes with its own version of Maven. If you do not plan on making changes to the WebService it is also possible to install Maven on its own.
 
@@ -41,12 +41,13 @@ Start IntelliJ, open the WebService project: click *File*, *Open*, provide the p
 
 To build the project, click *Run* and *Edit Configurations*. Then, add the following configuration in IntelliJ and run it.
 
-![ab35623fca096f8ed0f4e7e706deca72](https://github.com/BPaaSModelling/AOAME/assets/18686110/16a654eb-05d7-4901-835e-2970e3c361ad)
+![b9272fc3f8e3dc466663c5f51b40a981](https://github.com/BPaaSModelling/AOAME/assets/18686110/465f8ac6-a6ef-48d2-b36f-148b14e2f752)
 
 ## Using Eclipse
 
 Start Eclipse and click *File* then *Import…*
-![b9272fc3f8e3dc466663c5f51b40a981](https://github.com/BPaaSModelling/AOAME/assets/18686110/465f8ac6-a6ef-48d2-b36f-148b14e2f752)
+
+![ab35623fca096f8ed0f4e7e706deca72](https://github.com/BPaaSModelling/AOAME/assets/18686110/16a654eb-05d7-4901-835e-2970e3c361ad)
 
 Select *Projects from Folder or Archive*. Then click on *Next*.
 
